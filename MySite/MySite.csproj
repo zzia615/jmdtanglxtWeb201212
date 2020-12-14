@@ -96,7 +96,7 @@
     <Compile Include="AddSafe.aspx.designer.cs">
       <DependentUpon>AddSafe.aspx</DependentUpon>
     </Compile>
-    <Compile Include="BLL\SqlHelp.cs" />
+    <Compile Include="BLL\SiteBLL.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -147,7 +147,7 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="DAL\SqlHelp.cs" />
+    <Compile Include="DAL\SiteDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="截图\" />
